@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f9fafb;
+  --foreground: #171717;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--foreground);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
