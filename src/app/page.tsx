@@ -1,6 +1,6 @@
 "use client" // On utilise la version client de React pour le rendu côté client
 import FilterBar, {FilterOptions} from "@/components/FilterBar";
-import {SetStateAction, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import {DataItem, DEFAULT_FILTER, getItemsFromJSON} from "@/database/api";
 import ItemInfoCard from "@/components/ItemInfoCard";
 import AgePriceScatterChart from "@/components/AgePriceScatterChart";
